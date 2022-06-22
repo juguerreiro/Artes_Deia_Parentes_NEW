@@ -1,1 +1,38 @@
-<img src="Perfil_deia.jpeg" alt="Artes Deia Parentes">
+<div class="row">
+  <div class="col-6">
+  </div>
+  <div class="col-6">
+  </div>
+</div>
+
+
+<div class="container">
+  <%= cl_image_tag  ("perfil_deia.jpg"), style: "width:40%;", class: "position-absolute end-0 me-5"%>
+
+  <div id="first_element">
+    <h1 class="pricipal-text p-5"><strong>ARTES</strong> DEIA <strong>PARENTES</strong></h1>
+  </div>
+
+  <div id="second_element">
+  </div>
+
+</div>
+
+
+<style>
+#first_element {
+  background-color: rgba(249,212,182,0.5);
+  /* background-color: red; */
+  position: relative;
+  top: 350px;
+  left: 13px;
+  padding: 75px;
+  width: 75%;
+  }
+
+#second_element {
+  position: absolute;
+  right: -500px;
+  top: 66px;
+}
+</style>
